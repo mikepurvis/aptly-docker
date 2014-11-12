@@ -9,4 +9,4 @@ apt-get update; \
 apt-get install aptly -y
 
 ADD aptly.conf /etc/aptly.conf
-VOLUME ["/root/.aptly"]
+VOLUME ["/aptly"]
