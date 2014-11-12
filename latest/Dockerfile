@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:jessie
 MAINTAINER Mike Purvis
 
 # Instructions from: http://www.aptly.info/download/
