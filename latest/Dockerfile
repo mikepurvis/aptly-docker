@@ -7,3 +7,6 @@ gpg --keyserver keys.gnupg.net --recv-keys 2A194991; \
 gpg -a --export 2A194991 | apt-key add -; \
 apt-get update; \
 apt-get install aptly -y
+
+ADD aptly.conf /etc/aptly.conf
+VOLUME ["/root/.aptly"]
